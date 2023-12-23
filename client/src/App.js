@@ -21,7 +21,7 @@ function App() {
   };
   useEffect(() => {
     bringapi();
-  }, [backend]);
+  }, []);
 
   return (
     <div className="App">

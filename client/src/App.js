@@ -21,6 +21,7 @@ function App() {
   };
   useEffect(() => {
     bringapi();
+    console.log(backend);
   }, []);
 
   return (

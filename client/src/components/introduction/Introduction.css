@@ -1,0 +1,276 @@
+
+:root{
+  /* colors for intro page */
+  --tittle-color:rgb(43, 55, 58);
+
+  /* Font size variables */
+  --p-font-size: 18px;
+}
+
+.introduction-container {
+  margin: 2%;
+}
+
+.Big-title-Introduction {
+  text-align: center;
+  color: lightblue;
+}
+
+.section1-Introduction-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 2%;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.title1-Introduction {
+  text-align: center;
+  color: var(--tittle-color);
+}
+
+.paragraph1-Introduction {
+  display: flex;
+  align-content: flex-start;
+  font-size: var(--p-font-size);
+}
+
+.section2-Introduction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.Section2-Content-title-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 30%;
+  position: relative;
+}
+
+.title2-Introduction {
+  text-align: center;
+  color: var(--tittle-color);
+}
+
+.paragraph2-Introduction {
+  display: flex;
+  font-size: var(--p-font-size);
+}
+
+.section2-image-carrer {
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 2.6%;
+}
+
+/* .section2-Introduction-container::before {
+  display: flex;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  right: 35%;
+  height: 2px;
+  background-color: red;
+} */
+
+.section3-Introduction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.Section3-Content-title-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-left: 30%;
+  position: relative;
+}
+
+.title3-Introduction {
+  text-align: center;
+  color: var(--tittle-color);
+}
+
+.paragraph3-Introduction {
+  display: flex;
+  font-size: var(--p-font-size);
+}
+
+.section3-image-skill {
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+/* .section3-Introduction-container::before {
+  display: flex;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  right: 44%;
+  height: 2px;
+  background-color: red;
+} */
+
+.section4-Introduction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.Section4-Content-title-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 30%;
+  position: relative;
+}
+
+.title4-Introduction {
+  text-align: center;
+  color: var(--tittle-color);
+}
+
+.paragraph4-Introduction {
+  display: flex;
+  font-size: var(--p-font-size);
+}
+
+.section4-image-diversity {
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 2.6%;
+}
+
+/* .section4-Introduction-container::before {
+  display: flex;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  right: 35%;
+  height: 2px;
+  background-color: red;
+} */
+
+.title-bottom-map {
+  font-size: 36px;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.titlebottom-paragraph {
+  font-size: 22px;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.perscholas-map {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+}
+
+@media only screen and (max-width: 800px) {
+  .section1-Introduction-container,
+  .Section2-Content-title-image,
+  .Section3-Content-title-image,
+  .Section4-Content-title-image {
+    margin-right: 2%;
+    margin-left: 2%;
+    flex-direction: column;
+  }
+
+  /* .section2-Introduction-container::before {
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 0x;
+  }
+
+  .section3-Introduction-container::before {
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 0x;
+  }
+
+  .section4-Introduction-container::before {
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+  } */
+
+  .section2-Introduction-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section3-Introduction-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section4-Introduction-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section2-image-carrer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .section3-image-skill {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+  }
+  .section4-image-diversity {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .perscholas-map {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .title-bottom-map,
+  .title-bottom-paragraph {
+    text-align: center;
+  }
+}

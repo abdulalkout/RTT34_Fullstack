@@ -1,0 +1,30 @@
+:root{
+  /* colors for stories page */
+  --tittle-color:rgb(43, 55, 58);
+
+}
+
+.studentImg {
+  height: 200px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.studentList {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  margin-top: 30px;
+  gap: 10px;
+  margin-left: 15px;
+  scrollbar-width: thin;
+  margin-bottom: 50px;
+}
+
+.storiesTitle {
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  margin-left: 2%;
+  color: var(--tittle-color);
+}

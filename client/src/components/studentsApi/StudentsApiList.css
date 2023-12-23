@@ -1,0 +1,77 @@
+.Api-list-container {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  margin: 1%;
+}
+
+.title-Api-Container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  margin-right: 20%;
+  border-radius: 8px;
+}
+.title-Api-Container h1{
+  margin: 1%;
+}
+
+.title-Api-Container p{
+  text-align: left;
+  margin: 7%;
+}
+
+.Api-Image {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 8px;
+}
+
+.title-Api-Container p a {
+  margin-left: 2%; 
+}
+
+
+
+/*==============  API LIST CSS =========*/
+
+.ApiList-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.ApiList-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ApiList-item {
+  list-style: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #f8f8f8;
+}
+
+.ApiList-link {
+  color: #007BFF;
+  text-decoration: none;
+  margin-left: 5px;
+  display: none; 
+}
+
+.ApiList-icon:hover + .ApiList-link {
+  display: inline; 
+  text-decoration: underline; 
+}
+
+.ApiList-icon {
+  cursor: pointer;
+}
+

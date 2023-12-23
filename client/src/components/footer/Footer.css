@@ -1,0 +1,11 @@
+.Footer {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: lightblue;
+  font-size: 16px;
+  font-family: sans-serif;
+}

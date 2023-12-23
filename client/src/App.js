@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { useEffect, useState } from "react";
+
+// [importing components]
+import HomePage from "./pages/homePage/HomePage";
+import NavBar from "./components/navbar/NavBar";
+import Footer from "./components/footer/Footer";
+import StudentsPage from "./pages/studentsStoriesPage/StudentsPage";
+import AboutPage from "./pages/aboutPage/AboutPage";
+import StudentApiList from "./components/studentsApi/StudentApiList";
+import DevelopersCooperation from "./pages/developersCooperation/DevelopersCooperation";
 
 function App() {
+  const [backend, setBackend] = useState();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/students/:index" element={<StudentsPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/StudentApiList" element={<StudentApiList />} />
+        <Route path="/cooperation" element={<DevelopersCooperation />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

@@ -1,200 +1,192 @@
-
-@font-face {
+/* @font-face {
     font-family: 'font';
     src: local('font'), url('../../fonts/font.ttf') format('truetype');
-  }
+  } */
 
 .meet-h1 {
-    text-align: center;
-    font-family: 'font';
-    text-align: center;
-    padding-top: 0;
+  text-align: center;
+  font-family: "font";
+  text-align: center;
+  padding-top: 0;
 }
 .project-h1 {
-    text-align: center;
-    margin-left: 10%;
-    color: #70c5e1;
+  text-align: center;
+  margin-left: 10%;
+  color: #70c5e1;
 }
 
-.paragraph1{
-margin-left: 1em;
-font-family: 'font';
-
+.paragraph1 {
+  margin-left: 1em;
+  font-family: "font";
 }
 .image-container {
-    width:20%;
-    height:auto;
-    margin-left: 10%;
-    margin-top: 0;
+  width: 20%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 0;
 }
 
 .dev-image {
-    width: 15em;
-    height: 15em;
-    border-radius: 5em;
-    display: block;
-    margin-top: 0;
-    background-size: cover;
-    margin-left: 0;
+  width: 15em;
+  height: 15em;
+  border-radius: 5em;
+  display: block;
+  margin-top: 0;
+  background-size: cover;
+  margin-left: 0;
 }
-.main{
-display: flex;
+.main {
+  display: flex;
 }
 .on {
-    position: relative;  
-    transition: filter 0.3s ease;
-    z-index: 1; 
-    width: 20em;
-    cursor: pointer;
-    padding: 0%;
-    }
+  position: relative;
+  transition: filter 0.3s ease;
+  z-index: 1;
+  width: 20em;
+  cursor: pointer;
+  padding: 0%;
+}
 
 .on img {
-   height: 20em;
-   width: 20em;
-   margin-left: 5em;
-  }
-  
-  .on:hover {
-    filter: brightness(1.5); 
-  }
- 
-  
-  .on:hover::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 4em 5em 5em;
-    border-left: 15em solid transparent; 
-    border-right: 15em solid transparent; 
-    border-bottom: 30em solid rgba(255, 255, 14, 0.31); 
-    top: 53%;
-    left: 76.5%;
-    transform: translateX(-50%);
-  }
- button{
-    margin-top:0;
-    width: 4em;
-    height: 3em;
-     margin-left: 1em;
- }
-  .image-container {
-    position: relative;
-    width: 40%;
-    height: auto;
-    margin-left: 10%;
-  }
-  
-  .dev-image {
-    width: 15em;
-    height: 15em;
-    border-radius: 5em;
-    display: block;
-    margin-top: 0;
-    background-size: cover;
-    margin-left: 0;
-    position: relative;
-    z-index: -1; 
-  }
-  .part-n {
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-
-
+  height: 20em;
+  width: 20em;
+  margin-left: 5em;
 }
 
-.left{
-    background-color: #b4e2f1;
-    margin-top: 2em;
-    height: 174%;
-    width: 70%;
-    margin-right: 5em;
-    border-radius: 5em;
-    word-spacing: 20%;
-    
-}
-  
-  .part-n2 {
-    display: flex;
-    justify-content: center;   
-    margin-top: 2em;
-  }
-  
-.paragraph2{
-   border: double rgb(12, 12, 12) 2px;
-   background-color: azure;
-   width: 30em;
-   margin-left: 5em;
-   border-radius: 20px;
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-   padding: 2em;
-   margin-bottom: 2%;
-
+.on:hover {
+  filter: brightness(1.5);
 }
 
-.project-container{
-    display: flex;
-    width:100%;
-    height:auto;
-
+.on:hover::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4em 5em 5em;
+  border-left: 15em solid transparent;
+  border-right: 15em solid transparent;
+  border-bottom: 30em solid rgba(255, 255, 14, 0.31);
+  top: 53%;
+  left: 76.5%;
+  transform: translateX(-50%);
+}
+button {
+  margin-top: 0;
+  width: 4em;
+  height: 3em;
+  margin-left: 1em;
+}
+.image-container {
+  position: relative;
+  width: 40%;
+  height: auto;
+  margin-left: 10%;
 }
 
-.project-list{
-    padding-right: 10%;
-    margin-left: 10%;
-    margin-top: 18%;
-    height: 9em;
-    list-style: none;
-    border: double rgb(12, 12, 12) 2px;
-    background-color: azure;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+.dev-image {
+  width: 15em;
+  height: 15em;
+  border-radius: 5em;
+  display: block;
+  margin-top: 0;
+  background-size: cover;
+  margin-left: 0;
+  position: relative;
+  z-index: -1;
+}
+.part-n {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.left {
+  background-color: #b4e2f1;
+  margin-top: 2em;
+  height: 174%;
+  width: 70%;
+  margin-right: 5em;
+  border-radius: 5em;
+  word-spacing: 20%;
+}
+
+.part-n2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.paragraph2 {
+  border: double rgb(12, 12, 12) 2px;
+  background-color: azure;
+  width: 30em;
+  margin-left: 5em;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 2em;
+  margin-bottom: 2%;
+}
+
+.project-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.project-list {
+  padding-right: 10%;
+  margin-left: 10%;
+  margin-top: 18%;
+  height: 9em;
+  list-style: none;
+  border: double rgb(12, 12, 12) 2px;
+  background-color: azure;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 @media only screen and (max-width: 800px) {
-    .meet-h1 {
-        text-align: center;
-        font-size: 0.5em;
-        padding-top: 0.5em; 
-    }
+  .meet-h1 {
+    text-align: center;
+    font-size: 0.5em;
+    padding-top: 0.5em;
+  }
 
-    .project-h1 {
-        text-align: center;
-        margin-left: 5%; 
-        font-size: 1em; 
-    }
+  .project-h1 {
+    text-align: center;
+    margin-left: 5%;
+    font-size: 1em;
+  }
 
-    .image-container {
-        width: 50%; 
-        margin-left: 5%;
-    }
+  .image-container {
+    width: 50%;
+    margin-left: 5%;
+  }
 
-    .dev-image {
-        width: 7em;
-        height: 7em;
-    }
-    .on img {
-        height: 10em;
-        width: 10em;
-        margin-left: 2em;
-       }
-       
-    .left {
-        width: 100%;
-        margin-right: 0;
-        word-spacing: 10%; 
-        height: 50%;
-    }
+  .dev-image {
+    width: 7em;
+    height: 7em;
+  }
+  .on img {
+    height: 10em;
+    width: 10em;
+    margin-left: 2em;
+  }
 
-    .paragraph2 {
-        width: 80%;
-        margin-left: 5%;
-    }
-  
-    .project-list {
-        margin-left: 5%;
-        margin-top: 5%;
-    }
+  .left {
+    width: 100%;
+    margin-right: 0;
+    word-spacing: 10%;
+    height: 50%;
+  }
+
+  .paragraph2 {
+    width: 80%;
+    margin-left: 5%;
+  }
+
+  .project-list {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
 }

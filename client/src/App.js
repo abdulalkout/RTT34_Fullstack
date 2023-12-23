@@ -14,6 +14,15 @@ import DevelopersCooperation from "./pages/developersCooperation/DevelopersCoope
 function App() {
   const [backend, setBackend] = useState();
 
+  const bringapi = async () => {
+    const response = await fetch("/developersCoop");
+    const data = await response.json();
+    setBackend(data);
+  };
+  useEffect(() => {
+    bringapi();
+  }, [backend]);
+
   return (
     <div className="App">
       <NavBar />

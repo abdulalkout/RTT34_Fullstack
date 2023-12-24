@@ -30,15 +30,11 @@ function DevelopersCooperationCard({ item }) {
   const showLinks = () => {
     return (
       <div>
-        {item.links.map((link, index) => {
-          return (
-            <div>
-              <a key={index} href={link}>
-                {link}
-              </a>
-            </div>
-          );
-        })}
+        {item.links.map((link, index) => (
+          <div key={index}>
+            <a href={link}>{link}</a>
+          </div>
+        ))}
       </div>
     );
   };

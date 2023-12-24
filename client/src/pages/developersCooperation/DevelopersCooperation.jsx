@@ -25,6 +25,22 @@ function DevelopersCooperation() {
 
   return (
     <div>
+      <div className="form-div">
+        <form action="" method="">
+          Name: <input type="text" name="name" />
+          <br />
+          Discription: <input type="text" name="discription" />
+          <br />
+          Price: <input type="number" name="price" />
+          <br />
+          Image: <input type="text" name="img" />
+          <br />
+          <div>
+            <a href="/cooperation">Back</a>
+            <input type="submit" name="" value="Add new" />
+          </div>
+        </form>
+      </div>
       {Array.isArray(devCoop) && devCoop.length === 0 ? (
         <h3>Loading...</h3>
       ) : (

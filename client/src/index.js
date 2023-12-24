@@ -7,15 +7,18 @@ import { BrowserRouter as Router } from "react-router-dom";
 // importing contexts
 import DevelopersStoriesContextProvider from "./contexts/storiesContext/DevelopersStoriesContext";
 import APIContextProvider from "./contexts/apiContexts/apiContext";
+import DevcoopContextProvider from "./contexts/apiContexts/devcoopContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
       <DevelopersStoriesContextProvider>
-        <APIContextProvider>
-          <App />
-        </APIContextProvider>
+        <DevcoopContextProvider>
+          <APIContextProvider>
+            <App />
+          </APIContextProvider>
+        </DevcoopContextProvider>
       </DevelopersStoriesContextProvider>
     </Router>
   </React.StrictMode>

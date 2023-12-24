@@ -15,6 +15,7 @@ mongoose.connection.once("open", () => {
 app.get("/developersCoop", (req, res) => {
   DevCoop.find({}, (err, allDevCoop) => {
     res.json({ devcoop: allDevCoop });
+    // console.log(allDevCoop);
   });
 });
 

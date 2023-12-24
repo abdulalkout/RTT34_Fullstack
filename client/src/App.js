@@ -1,6 +1,5 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { useEffect, useState } from "react";
 
 // [importing components]
 import HomePage from "./pages/homePage/HomePage";
@@ -12,18 +11,6 @@ import StudentApiList from "./components/studentsApi/StudentApiList";
 import DevelopersCooperation from "./pages/developersCooperation/DevelopersCooperation";
 
 function App() {
-  const [backend, setBackend] = useState();
-
-  const bringapi = async () => {
-    const response = await fetch("/developersCoop");
-    const data = await response.json();
-    setBackend(data);
-  };
-  useEffect(() => {
-    bringapi();
-    console.log(backend);
-  }, []);
-
   return (
     <div className="App">
       <NavBar />

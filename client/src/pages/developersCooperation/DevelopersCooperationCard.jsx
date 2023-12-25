@@ -54,6 +54,9 @@ function DevelopersCooperationCard({ item }) {
         >
           Discription
         </button>
+        <form action={`/cooperation/${item._id}?_method=DELETE`} method="POST">
+          <input type="submit" value="Delete" />
+        </form>
       </div>
     );
   };

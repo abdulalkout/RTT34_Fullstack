@@ -64,6 +64,12 @@ app.post("/cooperation", (req, res) => {
   );
 });
 
+app.delete("/cooperation/:id", (req, res) => {
+  DevCoop.findByIdAndRemove(req.params.id, (err, foundDevCoop) => {
+    res.redirect("/cooperation");
+  });
+});
+
 app.listen(5000, (req, res) => {
   console.log("working on 5000 port");
 });

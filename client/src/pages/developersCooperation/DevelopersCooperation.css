@@ -22,10 +22,15 @@
 
 .form-div {
   margin: 50px;
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 1200px;
   background-color: lightblue;
   border-radius: 30px;
   text-align: center;
   padding-top: 20px;
+}
+
+.developers-cooperation-div {
+  display: flex;
+  justify-content: space-between;
 }

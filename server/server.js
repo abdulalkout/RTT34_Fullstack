@@ -34,11 +34,34 @@ app.get("/cooperation", (req, res) => {
   res.redirect("/");
 });
 
+// app.post("/cooperation", (req, res) => {
+//   DevCoop.create(req.body, (err, createDevCoop) => {
+//     console.log(createDevCoop);
+//     res.redirect("/cooperation");
+//   });
+// });
+
 app.post("/cooperation", (req, res) => {
-  DevCoop.create(req.body, (err, createDevCoop) => {
-    console.log(createDevCoop);
-    res.redirect("/cooperation");
-  });
+  const linksArray = req.body.links.split(",").map((link) => link.trim());
+
+  DevCoop.create(
+    {
+      name: req.body.name,
+      discription: req.body.discription,
+      code: req.body.code,
+      links: linksArray,
+      img: req.body.img,
+    },
+    (err, createDevCoop) => {
+      if (err) {
+        console.error(err);
+        res.status(500).send("Internal Server Error");
+      } else {
+        console.log(createDevCoop);
+        res.redirect("/cooperation");
+      }
+    }
+  );
 });
 
 app.listen(5000, (req, res) => {

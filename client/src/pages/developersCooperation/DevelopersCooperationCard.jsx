@@ -8,7 +8,9 @@ function DevelopersCooperationCard({ item }) {
   const showDiscription = () => {
     return (
       <div>
-        <img className="cooperation-card-img" src={item.img} />
+        {item.img ? (
+          <img className="cooperation-card-img" src={item.img} />
+        ) : null}
         <p>{item.discription}</p>
         <p>Created by: {item.name}</p>
         <button

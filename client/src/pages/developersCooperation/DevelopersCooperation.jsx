@@ -44,7 +44,12 @@ function DevelopersCooperation() {
             placeholder="{ Past your code in here}"
           />
           <br />
-          Links: <input type="text" name="links" placeholder="Links" />
+          Links:{" "}
+          <input
+            type="text"
+            name="links"
+            placeholder="Links (comma-separated)"
+          />
           <br />
           Image:{" "}
           <input type="text" name="img" placeholder="Image for your work" />

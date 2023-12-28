@@ -4,23 +4,25 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faChalkboardUser } from "@fortawesome/free-solid-svg-icons";
 import { faUniversalAccess } from "@fortawesome/free-solid-svg-icons";
-//======== 
+//========
 
 function Introduction() {
   return (
     <div className="introduction-container">
-      <h1 className="Big-title-Introduction">About Per Scholas</h1>
+      <h1 className="Big-title-Introduction">About Per Scholas Developers</h1>
 
       <div className="section1-Introduction-container">
         <h1 className="title1-Introduction">Developers Potential</h1>
         <p className="paragraph1-Introduction">
-          We as students appreciate Perscholas for its signifcant role in student success.
-          The platforms flexibility allows us to tailor our learning experience in a unique way.
-          The diversity is outstanding and the range of different courses caters to our various 
-          interests and academic needs to ensure well rounded education. The interactive nature
-          of online classes encourages active participation and collaboration, enhancing our understanding
-          of the material. Perscholas for us as students and learners is a valuable tool to empower us 
-          to succedd in the world of engineering. 
+          We as students appreciate Perscholas for its signifcant role in
+          student success. The platforms flexibility allows us to tailor our
+          learning experience in a unique way. The diversity is outstanding and
+          the range of different courses caters to our various interests and
+          academic needs to ensure well rounded education. The interactive
+          nature of online classes encourages active participation and
+          collaboration, enhancing our understanding of the material. Perscholas
+          for us as students and learners is a valuable tool to empower us to
+          succedd in the world of engineering.
         </p>
       </div>
 
@@ -30,14 +32,15 @@ function Introduction() {
             Creating Opportunity for Careers in Tech
             <FontAwesomeIcon
               icon={faGraduationCap}
-              style={{ color: "rgb(43, 55, 58)", marginLeft:'2%' }}
+              style={{ color: "rgb(43, 55, 58)", marginLeft: "2%" }}
             />
           </h1>
           <p className="paragraph2-Introduction">
-            We worked directly with Victor Vasquez. We as students would just like to say
-            Thank You for empowering us with invaluable skills in job searching
-            and providing insights into the business aspects of software engineering.
-            Your guidance has been instrumental in shaping our career paths.
+            We worked directly with Victor Vasquez. We as students would just
+            like to say Thank You for empowering us with invaluable skills in
+            job searching and providing insights into the business aspects of
+            software engineering. Your guidance has been instrumental in shaping
+            our career paths.
           </p>
         </div>
         <img
@@ -55,21 +58,23 @@ function Introduction() {
         />
         <div className="Section3-Content-title-image">
           <h1 className="title3-Introduction">
-            Closing the Tech Skills <br/> Divide
-            <FontAwesomeIcon 
-            icon={faChalkboardUser} 
-            style={{color: "rgb(43, 55, 58)", marginLeft:'2%'}} 
+            Closing the Tech Skills <br /> Divide
+            <FontAwesomeIcon
+              icon={faChalkboardUser}
+              style={{ color: "rgb(43, 55, 58)", marginLeft: "2%" }}
             />
           </h1>
           <p className="paragraph3-Introduction">
-            We are incredibly grateful for our instructors Teo Marcelo, Jordan Wofford
-            and Dylan Comeau. You guys have not only imparted valuable coding skills 
-            but also played a pivoting role in guiding us into the software engineering
-            field. You guys expertise and dedication has been extremely helpful in shaping 
-            our upcoming journies. We appreciate your commitment to pull us through challenges,
-            hosting a supportive learning environment, and instilling the confidence needed to 
-            succeed in this dynamic field. Thank you all for being the driving force behind 
-            our entry into the world of software engineering. 
+            We are incredibly grateful for our instructors Teo Marcelo, Jordan
+            Wofford and Dylan Comeau. You guys have not only imparted valuable
+            coding skills but also played a pivoting role in guiding us into the
+            software engineering field. You guys expertise and dedication has
+            been extremely helpful in shaping our upcoming journies. We
+            appreciate your commitment to pull us through challenges, hosting a
+            supportive learning environment, and instilling the confidence
+            needed to succeed in this dynamic field. Thank you all for being the
+            driving force behind our entry into the world of software
+            engineering.
           </p>
         </div>
       </div>
@@ -78,21 +83,23 @@ function Introduction() {
         <div className="Section2-Content-title-image">
           <h1 className="title4-Introduction">
             Achieving Diversity in the Tech Workforce
-            <FontAwesomeIcon 
-            icon={faUniversalAccess} 
-            style={{color: "rgb(43, 55, 58)", marginLeft:'2%'}} 
+            <FontAwesomeIcon
+              icon={faUniversalAccess}
+              style={{ color: "rgb(43, 55, 58)", marginLeft: "2%" }}
             />
           </h1>
           <p className="paragraph4-Introduction">
-            We here at RTT-34 cohort are fortunate to belong to a diverse group, representing 
-            various corners of the world, each bringing a unique perspective to our coding community.
-            The richness of our collective experiences enhances the learning environment, 
-            creating a tapestry of ideas and cultural insights. Despite our differences,
-            we come together with a shared passion for coding, forming connections that transcend geographical boundaries. 
-            This diversity not only fosters a collaborative 
-            spirit but also exposes us to a wealth of perspectives, making our coding journey not just educational 
-            but also culturally enriching. It's a privilege to learn 
-            and grow alongside such a globally diverse and dynamic group.
+            We here at RTT-34 cohort are fortunate to belong to a diverse group,
+            representing various corners of the world, each bringing a unique
+            perspective to our coding community. The richness of our collective
+            experiences enhances the learning environment, creating a tapestry
+            of ideas and cultural insights. Despite our differences, we come
+            together with a shared passion for coding, forming connections that
+            transcend geographical boundaries. This diversity not only fosters a
+            collaborative spirit but also exposes us to a wealth of
+            perspectives, making our coding journey not just educational but
+            also culturally enriching. It's a privilege to learn and grow
+            alongside such a globally diverse and dynamic group.
           </p>
         </div>
         <img

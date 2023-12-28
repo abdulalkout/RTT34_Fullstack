@@ -35,6 +35,10 @@
   padding: 10px;
   margin: 10px;
 }
+
+.show-card-button:hover {
+  cursor: pointer;
+}
 /* -------------------------------Input styling------------------- */
 .form-div {
   margin: 50px;

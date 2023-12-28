@@ -121,7 +121,7 @@
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   position: relative;
 }
 
@@ -154,17 +154,6 @@
   /* margin-top: 2.6%; */
 }
 
-/* .section4-Introduction-container::before {
-  display: flex;
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 44%;
-  right: 35%;
-  height: 2px;
-  background-color: red;
-} */
-
 .title-bottom-map {
   font-size: 36px;
   margin-top: 2%;
@@ -183,6 +172,17 @@
   height: 500px;
 }
 
+.change-button {
+  background-color: lightblue;
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 5%;
+}
+
+.change-button:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 800px) {
   .section1-Introduction-container,
   .Section2-Content-title-image,
@@ -192,27 +192,6 @@
     margin-left: 2%;
     flex-direction: column;
   }
-
-  /* .section2-Introduction-container::before {
-    top: 0;
-    bottom: 0;
-    width: 0;
-    height: 0x;
-  }
-
-  .section3-Introduction-container::before {
-    top: 0;
-    bottom: 0;
-    width: 0;
-    height: 0x;
-  }
-
-  .section4-Introduction-container::before {
-    top: 0;
-    bottom: 0;
-    width: 0;
-    height: 0;
-  } */
 
   .section2-Introduction-container {
     flex-direction: column;

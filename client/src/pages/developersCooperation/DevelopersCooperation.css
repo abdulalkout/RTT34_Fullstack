@@ -15,8 +15,10 @@
 
 .cooperation-card {
   width: 300px;
+  height: auto;
   background-color: rgba(93, 92, 92, 0.297);
   padding-bottom: 20px;
+  border-radius: 20px;
 }
 
 .cooperation-card-img {
@@ -25,6 +27,14 @@
   width: 200px;
 }
 
+.show-card-button {
+  width: auto;
+  background-color: lightblue;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
 /* -------------------------------Input styling------------------- */
 .form-div {
   margin: 50px;
@@ -55,4 +65,9 @@
 
 .submit-new:hover {
   cursor: pointer;
+}
+
+.loading {
+  height: 500px;
+  width: 500px;
 }

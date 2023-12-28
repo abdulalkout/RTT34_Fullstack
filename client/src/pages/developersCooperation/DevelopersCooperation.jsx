@@ -83,7 +83,7 @@ function DevelopersCooperation() {
         </form>
       </div>
       {Array.isArray(devCoop) && devCoop.length === 0 ? (
-        <h3>Loading...</h3>
+        <img src="https://media.tenor.com/JBgYqrobdxsAAAAi/loading.gif" />
       ) : (
         showDevCoop()
       )}

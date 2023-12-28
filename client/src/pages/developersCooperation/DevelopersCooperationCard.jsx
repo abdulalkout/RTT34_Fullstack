@@ -44,7 +44,7 @@ function DevelopersCooperationCard({ item }) {
   const showContent = () => {
     return (
       <div>
-        <p>{item.code ? item.code : null}</p>
+        <p className="show-code">{item.code ? item.code : null}</p>
         <p>{item.links ? showLinks() : null}</p>
         <button
           className="show-card-button"
@@ -55,7 +55,7 @@ function DevelopersCooperationCard({ item }) {
           Discription
         </button>
         <form action={`/cooperation/${item._id}?_method=DELETE`} method="POST">
-          <input type="submit" value="Delete" />
+          <input type="submit" value="Delete" className="show-card-button" />
         </form>
       </div>
     );

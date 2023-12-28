@@ -34,13 +34,6 @@ app.get("/cooperation", (req, res) => {
   res.redirect("/");
 });
 
-// app.post("/cooperation", (req, res) => {
-//   DevCoop.create(req.body, (err, createDevCoop) => {
-//     console.log(createDevCoop);
-//     res.redirect("/cooperation");
-//   });
-// });
-
 app.post("/cooperation", (req, res) => {
   const linksArray = req.body.links.split(",").map((link) => link.trim());
 

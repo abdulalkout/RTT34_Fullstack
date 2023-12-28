@@ -1,3 +1,8 @@
+.developers-cooperation-div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .cooperation-card-list {
   display: flex;
   flex-wrap: wrap;
@@ -20,17 +25,34 @@
   width: 200px;
 }
 
+/* -------------------------------Input styling------------------- */
 .form-div {
   margin: 50px;
-  height: 500px;
+  height: auto 250px;
   width: 1200px;
   background-color: lightblue;
   border-radius: 30px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 70px;
 }
 
-.developers-cooperation-div {
-  display: flex;
-  justify-content: space-between;
+.name-input {
+  margin: 0px 10px 30px 0px;
+  border-radius: 5px;
+  border-color: rgb(142, 191, 207);
+}
+
+.code-input {
+  height: auto;
+  width: auto;
+}
+
+.submit-new {
+  background-color: rgba(21, 41, 48, 0.258);
+  border-radius: 20px;
+  width: 100px;
+}
+
+.submit-new:hover {
+  cursor: pointer;
 }

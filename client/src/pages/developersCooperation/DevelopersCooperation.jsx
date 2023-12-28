@@ -27,35 +27,58 @@ function DevelopersCooperation() {
     <div className="developers-cooperation-div">
       <div className="form-div">
         <form action="/cooperation" method="POST">
-          Name:* <input type="text" name="name" placeholder="First Name" />
+          Name:*
+          <br />
+          <input
+            type="text"
+            name="name"
+            placeholder="First Name"
+            className="name-input"
+          />
           <br />
           Discription:*
+          <br />
           <input
             type="text"
             name="discription"
             placeholder="Discription of your code"
+            className="name-input"
           />
           <br />
           Code:
+          <br />
           <input
-            className="code-input"
+            className="code-input name-input"
             type="text"
             name="code"
             placeholder="{ Past your code in here}"
           />
           <br />
-          Links:{" "}
+          Links:
+          <br />
           <input
             type="text"
             name="links"
             placeholder="Links (comma-separated)"
+            className="name-input"
           />
           <br />
-          Image:{" "}
-          <input type="text" name="img" placeholder="Image for your work" />
+          Image:
+          <br />
+          <input
+            type="text"
+            name="img"
+            placeholder="Image for your work"
+            className="name-input"
+          />
           <br />
           <div>
-            <input type="submit" name="" value="Add new" />
+            <input
+              type="submit"
+              name=""
+              value="Add new"
+              className="submit-new"
+            />
           </div>
         </form>
       </div>

@@ -177,6 +177,7 @@
   border-radius: 50px;
   border: none;
   margin-bottom: 5%;
+  font-size: medium;
 }
 
 .change-button:hover {

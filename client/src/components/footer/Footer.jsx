@@ -21,7 +21,7 @@ function Footer() {
           <h2>The Developers</h2>
           <ul>
             <li>Abdul Alkout</li>
-            <li>Jorge Robayo</li>
+            <li>Jorge Robayo!</li>
             <li>Deandre Byrd</li>
             <li>Mouloud Chabouni</li>
             <li>Nurredyn Ballout</li>

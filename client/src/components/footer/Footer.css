@@ -19,3 +19,12 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.instructors-list{
+  list-style: none;
+  font-weight: 500;
+}
+
+.about-p{
+  font-weight: 500;
+}

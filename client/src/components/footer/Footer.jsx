@@ -10,7 +10,7 @@ function Footer() {
       <div className="footer-info">
         <div className="instructors-div">
           <h2>PerScholas Instructors</h2>
-          <ul>
+          <ul className="instructors-list">
             <li>Teo Marcelo</li>
             <li>Jordan Wofford</li>
             <li>Dylan Comeau</li>
@@ -19,7 +19,7 @@ function Footer() {
         </div>
         <div className="instructors-div">
           <h2>The Developers</h2>
-          <ul>
+          <ul className="instructors-list">
             <li>Abdul Alkout</li>
             <li>Jorge Robayo!</li>
             <li>Deandre Byrd</li>
@@ -31,7 +31,7 @@ function Footer() {
         </div>
         <div className="about-div">
           <h2>About</h2>
-          <p>
+          <p className="about-p">
             Perscholas empowers students by offering comprehensive
             industry-aligned courses that cultivate practical skills and foster
             a collaborative learning environment, preparing graduates for

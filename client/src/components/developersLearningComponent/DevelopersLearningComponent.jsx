@@ -6,10 +6,10 @@ function DevelopersLearningComponent() {
   return (
     <div className="developers-learning-component">
       <p className="developer-learning-title">Developers cooperation</p>
-      <p className="developer-learning-discription">
+      <h4  className="developer-learning-discription">
         In this section you will find cool small projects and solving small
         coding problems
-      </p>
+      </h4>
       <img
         className="developer-learning-image"
         src="https://cdn-blog.scalablepath.com/uploads/2018/05/designers-developers-collaboration-tools-1.png"
@@ -17,7 +17,7 @@ function DevelopersLearningComponent() {
       <br />
       <button className="developer-learning-button">
         <Link className="developer-learning-link" to="/cooperation">
-          Checkout the cool codes
+           <h4>Checkout the cool codes</h4>
         </Link>
       </button>
     </div>
